@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1d1c1c;
+}
+/* Stylng to main container */
+.container{
+    overflow-y: scroll;
+}
+.container h1{
+    text-align: center;
+    margin-top: 3rem;
+    margin-left: -70px;
+    color: #f4aa15;
+    
+}
+/* Styling to the input field */
+
+.input-field{
+    gap: 10px;
+    display: flex;
+}
+.form{
+    
+    border-radius: 50px;
+    width: 35%;
+    height: 50px;
+    margin-left:28%;
+    margin-top: 3%;
+    background-color: #5a5858;
+}
+.input-field input{
+    all: unset;
+    color: rgb(248, 249, 250);
+    margin-top: 13px;
+    margin-right: 80px;
+    font-size: 20px;
+}
+.form button{
+    background: transparent;
+    border: none;
+}
+.form button i{
+    margin-top: 5px;
+    
+}
+#button-1{
+    margin-left: 18px;
+    margin-right: 10px;
+    
+}
+    
+#button-2{
+    margin-right: 0px;
+    padding-right: 0px;
+    text-align: right;
+    margin-left: 50px;
+}
+/* Styling to the div which shows result */
+#search-results{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.items{
+    border-radius: 10px;
+    padding-bottom: 1%;
+    width: 250px;
+    height: 300px;
+   margin: 10px;
+   background-color: #2d2c2c;
+}
+.items img{
+    width: 90%;
+    height: 200px;
+    margin-left: 13px;
+}
+.items h4
+{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #FDF3B7;
+    margin: 3%;
+}
+.more-details{
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 5px 15px;
+    background-color: #FDF3B7;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.favourite{
+    margin-left: 100px;
+    font-size: 15px;
+    color: white;
+    border-radius: 50%;
+    align-self: center;
+    border: 1px solid white;
+    padding: 4px 4px 2px 4px;
+}
+.clicked{
+    background-color: #DFDFDF !important;
+    color: red !important;
+}
+
+.fav-btn{
+    margin-left: 90px;
+    height: 50px;
+    width: 190px;
+    font-size: 17px;
+    border-radius: 25px;
+    margin-top: 40px;
+    background-color: rgb(217, 63, 36);
+    color: aliceblue;
+}
+.details-page{
+    width: 60%;
+   
+}
+.border-circle{
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #FDF3B7;;
+}
+.details-page p, h5{
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.details-page img{
+    height: 60vh;
+    width: 60%;
+    object-fit: contain;
+}
+.details-page h3{
+    color: #FDF3B7;
+    margin-top: 20px;
+}
